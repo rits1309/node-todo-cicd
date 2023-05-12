@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    build: .
+    image : "patelajay745/node-app-test"
     ports:
       - "8000:8000"
